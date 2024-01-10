@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+  background-color: #d8da3d; /* Background color */
+  color: #80007e; /* Text color */
+  /* Font styles, margins, etc. can be added here */
+}
+
+/* Styles for elements on the side */
+.side_elements {
+  float: left;
+  width: 15%;
+  margin: 20px 10px 0 0; /* Shorthand for margin */
+  padding: 10px;
+  box-sizing: border-box;
+  /* Additional styles for side elements */
+}
+
+/* Styles for elements in the middle */
+.middle_elements {
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 200; /* Adjusted font weight */
+  /* Additional styles for middle elements */
+}
+
+/* Styles specifically for w3schools class */
+.w3schools {
+  background-color: white;
+  font: bold 1em "Zilla Slab", serif; /* Shorthand for font properties */
+  position: relative;
+  padding: 2px;
+}
+
+/* Pseudo-element for w3schools class */
+.w3schools::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 23px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Styles for the dotted line */
+.line {
+  margin-top: 50px;
+  border-top: 2px dotted #80007e;
+}
+
+/* Styles for italicized text with bold font */
+.to_italics {
+  font: italic bold 1em "Martel", serif; /* Shorthand for font properties */
+  margin: 0;
+}
